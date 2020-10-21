@@ -1,0 +1,81 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+   text-decoration: none;
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-bottom: 100px;
+    word-break: keep-all;
+    background-clip: content-box;
+    background-color: whitesmoke;
+    text-indent: 10px;
+    font-family: monospace;
+    text-align: left;
+    box-shadow: 2px 2px 5px black;
+}
+
+h1 {
+   background-image:
+       linear-gradient(170deg, purple -150%, whitesmoke);
+   color: black; 
+   text-shadow: 1px 1px 5px black;
+}
+
+nav a {
+    color: silver;
+    font-size: 20px;   
+    background-color: black;
+    padding-right: 125px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 7.5px;
+    text-decoration: none;
+    position: fixed;
+    top: 2em;
+    left: 0em;
+    transition: 750ms;
+    box-shadow: 5px 5px 5px black;
+    
+}
+
+body {
+    background-color: rgba(25, 25, 25);
+}
+
+nav a:hover {
+    transition: 750ms;
+    color: rgba(0, 0, 0);
+    margin-left: 7.5px;
+    font-size: 20px;   
+    background-color: rgba(200, 200, 200);
+    padding-right: 110px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    position: fixed;
+    top: 2em;
+    left: 0em;
+    box-shadow: 5px 5px 5px black;
+    visibility: visible;
+}
+
+img { 
+    transform: translateX(175px);
+}
+
+h6 {
+    position: fixed;
+    top: 0em;
+    right: 5em;
+    color: rgba(150, 150, 150);
+}
+
+p {
+  text-indent: 10px;
+}
+
+
+
+
